@@ -7,11 +7,32 @@
 	<h2>Login</h2>
 
 	<form>
-		<input type="text" name="text" placeholder="username">
-		<input type="password" name="password" placeholder="password">
-		<input type="submit" name="Send">	
+		<label for="username">Username:</label>
+		<input id="username" type="text" name="text" placeholder="username" required>
+
+		<label for="password">password:</label>
+		<input id="password" type="password" name="password" placeholder="password" required>
+		<input type="submit" name="Send">
 	</form>
-	
-	
+
+<br>
+
+	<form>
+		<label for="Cats">Cats:</label>
+		<input id="Cats" type="radio" name="petChoice" value="Cats">
+
+		<label for="Dogs">Dogs:</label>
+		<input id="Dogs" type="radio" name="petChoice" value="Dogs">
+		<button>Go!</button>
+<br>
+		<select name="colors">
+			<option value="Choose" selected disabled hidden>Choose color</option>
+			<option value="Red">Red</option>
+			<option value="Blue">Blue</option>
+			<option value="Yellow">Yellow</option>
+			<option value="Black">Black</option>
+		</select>
+	</form>
+
 </body>
 </html>
