@@ -14,7 +14,6 @@ app.get("/dog", function(req, res){
     res.send("MEOW!!!");
 });
 
-
 app.listen(3000, function() {
     console.log("Listening on port 3000");
 });
