@@ -1,0 +1,25 @@
+{
+  "name": "webdeveloperbootcamp",
+  "version": "1.0.0",
+  "description": "Udemy course The Web Developer Bootcamp by Colt Steele",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpayan01/WebDeveloperBootcamp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jpayan01/WebDeveloperBootcamp/issues"
+  },
+  "homepage": "https://github.com/jpayan01/WebDeveloperBootcamp#readme",
+  "dependencies": {
+    "express": "4.17.1",
+    "request": "2.88.2",
+    "body-parser": "1.19.0"
+  }
+}
