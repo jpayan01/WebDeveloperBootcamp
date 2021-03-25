@@ -11,11 +11,8 @@
     "url": "git+https://github.com/jpayan01/WebDeveloperBootcamp.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Joel E Payan",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jpayan01/WebDeveloperBootcamp/issues"
-  },
   "homepage": "https://github.com/jpayan01/WebDeveloperBootcamp#readme",
   "dependencies": {
     "express": "4.17.1",
